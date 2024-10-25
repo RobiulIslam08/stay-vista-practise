@@ -67,6 +67,7 @@ async function run() {
     })
     // Logout
     app.get('/logout', async (req, res) => {
+      console.log('how are you')
       try {
         res
           .clearCookie('token', {
